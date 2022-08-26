@@ -5,7 +5,7 @@ export default function Basic() {
   return (
     <div>
       <Head>
-        <title>Follow for Nonprofits</title>
+        <title>Kindred for Nonprofits</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Components />

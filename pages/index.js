@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Follow for Businesses</title>
+        <title>Kindred for Businesses</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <CustomComponents />

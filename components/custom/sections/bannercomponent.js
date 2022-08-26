@@ -8,22 +8,23 @@ const BannerComponent = () => {
     <div>
       <div className="spacer">
         <Container>
-          <Row>
-            <Col md="6" className="text-center">
+          <Row style = {{display: "flex"}}>
+            <Col md="6" className="text-center" style={{ listStyle: "outside" }}>
               <h1 className="title font-bold">What is Kindred?</h1>
               <h5 className="subtitle">
               <br/>
                   <li>
-                    Build brand awarenss with millions of nonprofit supporters who are motivated to purchase from you.
+                    <b>New Customers. </b>Kindred leverages its nonprofit network to connect your store with new values-aligned customers.
                   </li>
                   <br/>
                   <li>
-                    Integrates seamlessly within your Shopify store and your existing affiliate marketing program.
+                    <b>Embeddable Widget. </b>The Kindred plugin visualizes to customers the amount of their purchase that will be donated to their nonprofit, which doubles AOV!
                   </li>
                   <br/>
                   <li>
-                    Flat 5% charge for customer acquisition + donation amount.
+                    <b>Seamless. </b>Integrates seamlessly within your Shopify store and your existing affiliate marketing program.
                   </li>
+                  <br/>
                   <br/>                  <br/>
 
               </h5>
@@ -40,8 +41,12 @@ const BannerComponent = () => {
 
       <div className="static-slider10">
         <Container>
-          <Row className="">
-            <Col md="4" className="align-self-center ">
+          <Row style={{ display: "flex" }} className="">
+            <Col lg="7" style={{verticalAlign: "middle" }}>
+            <br/>
+              <Image src={herobanner} alt="herobanner" ></Image>
+            </Col>
+            <Col lg="5" className="align-self-center " style={{verticalAlign: "middle" }} >
               <h1 className="title">More effective than ads & influencers</h1>
               <h6 className="subtitle op-8">
                 With changes to cross-app tracking and your competitors investing in the same digitial ad strategies, Kindred provides a new way to stand out in a crowded field.
@@ -49,32 +54,34 @@ const BannerComponent = () => {
                 Nonprofit supporters are better than influencer followers; their purchase intent is supercharged by the motivation to donate to a cause they support. 
               </h6>
             </Col>
-            <Col md="8">
-              <Image src={herobanner} alt="herobanner"></Image>
-            </Col>
           </Row>
         </Container>
       </div>
-      <div className="static-slider3">
+      <div className="spacer">
         <Container>
-          <Row className="justify-content-center">
-            <Col md="8" className="align-self-center text-center">
-              <h1 className="title">
-                I’m Johanthan Doe, an{" "}
-                <b className="font-bold">
-                  Entreprenuer, Designer & Front-end Developer
-                </b>
-                , Making{" "}
-              </h1>
-              <a
-                className="btn btn-danger btn-md btn-arrow m-t-20"
-                data-toggle="collapse"
-                href=""
-              >
-                <span>
-                  Checkout My Work <i className="ti-arrow-right"></i>
-                </span>
-              </a>
+          <Row>
+            <Col lg="6" className="text-center" style={{padding: "50px"}}>
+              <h1 className="title font-bold">Why Kindred?</h1>
+              <h5 className="subtitle">
+              <br/>
+                  <li>
+                    <b>Risk free - donate on conversion. </b>With Kindred, you only donate to a nonprofit when their supporter makes a purchase.
+                  </li>
+                  <br/>
+                  <li>
+                    <b>Corporate donations that help the bottom-line. </b> Kindred helps build up your credibility as a socially conscious brand with corporate donations that also bring in new customers.
+                  </li>
+                  <br/>
+                  <li>
+                    <b>Brand partnerships without the hassle. </b>Kindred automates partnerships with hundreds of nonprofits that will build the legitimacy of your brand without the extra overhead.
+                  </li>
+                  <br/>
+              </h5>
+            </Col>
+            <Col lg="6">
+              <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0}}
+                src="https://www.youtube.com/embed/RvRhUHTV_8k">
+              </iframe>
             </Col>
           </Row>
         </Container>
