@@ -4,6 +4,11 @@ import Image from "next/image";
 import banner from "../../../assets/images/form-banners/banner1/banner-img.png";
 
 const FormBannerComponent = () => {
+  function handleSubmit(e) {
+    e.preventDefault();
+    window.location.assign('https://f3mt7yner02.typeform.com/to/Z34nNWeD');
+  }
+
   return (
     <div>
       <div className="bg-light">
@@ -13,11 +18,10 @@ const FormBannerComponent = () => {
               <Row>
                 <Col lg="5" md="7" className="align-self-center">
                   <h2 className="title font-bold">
-                    Give your Business Real boost Now!
+                    Join the Kindred waitlist! 
                   </h2>
                   <p className="m-t-40 m-b-30">
-                    To accomplish great things, we must not only act, but also
-                    dream; not only plan, but also believe.
+                    Expand your customer base with nonprofit supporters! Join the waistlist and we'll let you know as soon as we've matched you with values-aligned nonprofits.
                   </p>
                   <Form className="m-t-40">
                     <input
@@ -28,6 +32,7 @@ const FormBannerComponent = () => {
                     />
                     <input
                       type="submit"
+                      onClick={handleSubmit}
                       value="Get Started"
                       className="bg-info font-semibold font-16 btn-rounded text-uppercase text-white text-center"
                     />

@@ -17,7 +17,7 @@ const Banner2 = () => {
               A risk-free opportunity to reach new audiences while doing good.
             </h4>
             <a
-              href="emailto:armanjaffer@gmail.com"
+              href="https://f3mt7yner02.typeform.com/to/Z34nNWeD"
               className="btn btn-danger m-r-20 btn-md m-t-30 "
             >
               Join waitlist

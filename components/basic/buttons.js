@@ -22,7 +22,7 @@ const Buttons = () => {
         <Row>
           <Col md="12" className="text-center">
             <div className="btn-blocks">
-              <Button color="primary">primary</Button>
+              <Button color="primary">Hello</Button>
               <Button color="secondary">secondary</Button>
               <Button color="success">success</Button>
               <Button color="info">info</Button>

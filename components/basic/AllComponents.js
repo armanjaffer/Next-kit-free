@@ -20,8 +20,8 @@ const AllComponents = () => {
   return (
     <div>
       <Banner />
-      <Buttons />
-      <Labels />
+      {/* <Buttons /> */}
+      {/* <Labels />
       <PagePagination />
       <Images />
       <Breadcrumbs />
@@ -33,7 +33,7 @@ const AllComponents = () => {
       <TooltipPopover />
       <Typography />
       <JsComponents />
-      <CallToAction />
+      <CallToAction /> */}
     </div>
   );
 };

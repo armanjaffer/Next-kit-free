@@ -16,11 +16,11 @@ const Banner = () => {
               href="emailto:armanjaffer@gmail.com"
               className="btn btn-danger m-r-20 btn-md m-t-30 "
             >
-              Contact us
+              Join waitlist for nonprofits
             </a>
             <Link href="/">
               <a className="btn btn-md m-t-30  btn-outline-light ">
-                Businesses
+                For Businesses
               </a>
             </Link>
           </Col>
