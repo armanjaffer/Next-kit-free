@@ -15,11 +15,13 @@ import TooltipPopover from "./tooltip-popover";
 import Typography from "./typography";
 import JsComponents from "./js-components";
 import CallToAction from "../call-to-action/CallToAction";
+import NonprofitBannerComponent from "../custom/sections/nonprofitbannercomponent";
 
 const AllComponents = () => {
   return (
     <div>
       <Banner />
+      <NonprofitBannerComponent organization="nonprofit" />
       {/* <Buttons /> */}
       {/* <Labels />
       <PagePagination />

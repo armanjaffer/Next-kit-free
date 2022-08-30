@@ -50,15 +50,28 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="/basic">
+                  <Link href="/nonprofits">
                     <a
                       className={
-                        router.pathname == "/basic"
+                        router.pathname == "/nonprofit"
                           ? "text-white nav-link"
                           : "nav-link"
                       }
                     >
                       Nonprofits
+                    </a>
+                  </Link>
+                </NavItem>
+                <NavItem>
+                  <Link href="/nonprofits">
+                    <a
+                      className={
+                        router.pathname == "/faq"
+                          ? "text-white nav-link"
+                          : "nav-link"
+                      }
+                    >
+                      FAQ
                     </a>
                   </Link>
                 </NavItem>

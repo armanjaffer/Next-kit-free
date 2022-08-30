@@ -16,7 +16,7 @@ const Banner = () => {
               href="emailto:armanjaffer@gmail.com"
               className="btn btn-danger m-r-20 btn-md m-t-30 "
             >
-              Join waitlist for nonprofits
+              Join waitlist
             </a>
             <Link href="/">
               <a className="btn btn-md m-t-30  btn-outline-light ">

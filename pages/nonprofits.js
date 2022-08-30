@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Components from "../components/basic/AllComponents";
+import Components from "../components/nonprofits/AllComponents";
 
-export default function Basic() {
+export default function Nonprofits() {
   return (
     <div>
       <Head>

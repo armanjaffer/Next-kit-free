@@ -3,7 +3,9 @@ import React from "react";
 import { Row, Col, Container } from "reactstrap";
 import Image from "next/image";
 import herobanner from "../../../assets/images/kindredux.png";
-const BannerComponent = (props) => {
+const NonprofitBannerComponent = (props) => {
+
+  const nonprofitJsx = (<div></div>);
   const brandJsx =  (
     <div>
       <div className="spacer">
@@ -14,15 +16,15 @@ const BannerComponent = (props) => {
               <h5 className="subtitle">
               <br/>
                   <li>
-                    <b>New Customers. </b>Kindred brings in new customers by leveraging its nonprofit network to connect your store with their values-aligned nonprofit supporters.
+                    <b>No-effort, lucrative brand partnerships. </b>Kindred allows you to select from a list of suggested brands that are willing to share proceeds of your supporters purchases. Just like an influencer, your nonprofit is compensated every time a supporter purchases a product from your link.
                   </li>
                   <br/>
                   <li>
-                    <b>Embeddable Widget. </b>The Kindred plugin supplements by visualizing the amount that will be donated to a nonprofit, which doubles AOV!
+                    <b>A complimentary fundraising channel. </b>Kindred doesn’t replace your existing digital donation platform, it supplements it by using your partner brand’s existing affiliate marketing program to make direct deposits to your bank account.
                   </li>
                   <br/>
                   <li>
-                    <b>Seamless. </b>Integrates seamlessly within your Shopify store and your existing affiliate marketing program.
+                    <b>Embeddable component library. </b>Kindred provides simple “shop with us” buttons you can customize and easily integrate into your website, fundraising emails, and social media pages.
                   </li>
                   <br/>
                   <br/>                  <br/>
@@ -47,11 +49,11 @@ const BannerComponent = (props) => {
               <Image src={herobanner} alt="herobanner" ></Image>
             </Col>
             <Col lg="5" className="align-self-center " style={{verticalAlign: "middle" }} >
-              <h1 className="title">More effective than ads & influencers</h1>
+              <h1 className="title">Partner with brands that *truly* share your values.</h1>
               <h6 className="subtitle op-8">
-                With changes to cross-app tracking and your competitors investing in the same digitial ad strategies, Kindred provides a new way to stand out in a crowded field.
+                We understand that your reputation is everything. We rigorously vet our partner brands and ensure that our brand partners are willing to connect with you to answer questions about their practices.
                 <br/> <br/>
-                Nonprofit supporters are better than influencer followers; their purchase intent is supercharged by the motivation to donate to a cause they support. 
+                If you have suggestions of brands that you believe would be a good fit for you, we can reach out to add them to our list of partnered brands.
               </h6>
             </Col>
           </Row>
@@ -65,15 +67,15 @@ const BannerComponent = (props) => {
               <h5 className="subtitle">
               <br/>
                   <li>
-                    <b>Risk free - donate on conversion. </b>With Kindred, you only donate to a nonprofit when their supporter makes a purchase.
+                    <b>Raising money is hard. </b>Supporters are tired of being asked to donate, but they are willing to shop with brands that have been vetted by nonprofits that they trust. Our goal is to increase your online donations by 5-10% with almost no changes or effort.
                   </li>
                   <br/>
                   <li>
-                    <b>Corporate donations that help the bottom-line. </b> Kindred helps build up your credibility as a socially conscious brand with corporate donations that also bring in new customers.
+                    <b>Your supporters already shop, why not put it to good use? </b>Unlike online donations, using Kindred provides your supporters a product that they would have likely purchased regardless.
                   </li>
                   <br/>
                   <li>
-                    <b>Brand partnerships without the hassle. </b>Kindred automates partnerships with hundreds of nonprofits that will build the legitimacy of your brand without the extra overhead.
+                    <b>Support brands that are living by your values. </b>There are a lot of brands out there, but there may be far fewer that are working to create the world your organization aspires for. Partnering with these select brands increases the scope of your impact by highlighting companies that are doing things right.
                   </li>
                   <br/>
               </h5>
@@ -92,4 +94,4 @@ const BannerComponent = (props) => {
   return brandJsx;
 };
 
-export default BannerComponent;
+export default NonprofitBannerComponent;

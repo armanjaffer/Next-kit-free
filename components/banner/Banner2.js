@@ -22,9 +22,9 @@ const Banner2 = () => {
             >
               Join waitlist
             </a>
-            <Link href="/basic">
+            <Link href="/nonprofits">
               <a className="btn btn-md m-t-30  btn-outline-light ">
-                Nonprofits
+                For Nonprofits
               </a>
             </Link>
           </Col>
