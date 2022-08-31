@@ -23,21 +23,6 @@ const FaqComponents = () => {
     <div>
         <CallToAction />
         <FaqContent />
-        {/* <NonprofitBannerComponent organization="nonprofit" />
-        <Buttons />
-        <Labels />
-        <PagePagination />
-        <Images />
-        <Breadcrumbs />
-        <Cards />
-        <Dropdowns />
-        <PageForm />
-        <PageTable />
-        <Notification />
-        <TooltipPopover />
-        <Typography />
-        <JsComponents />
-        <CallToAction /> */}
     </div>
   );
 };

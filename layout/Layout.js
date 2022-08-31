@@ -1,4 +1,5 @@
 import Header from "./header/Header";
+import "@fontsource/dm-sans";
 
 const Layout = ({ children }) => {
   return (
