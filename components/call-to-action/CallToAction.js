@@ -10,7 +10,7 @@ const CallToAction = () => {
             <div className="d-flex align-items-center">
               <div>
                 <h2 className="title text-white font-weight-bold">
-                  You've got questions and we've got answers.
+                  You&apos;ve got questions and we&apos;ve got answers.
                 </h2>
                 <h6 className="subtitle font-light text-white">
                   Reach out if you have a question that is not answered below!

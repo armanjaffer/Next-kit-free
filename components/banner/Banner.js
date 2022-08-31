@@ -8,7 +8,7 @@ const Banner = () => {
       <Container>
         <Row className="justify-content-center">
           <Col lg="8" md="6" className="align-self-center text-center">
-            <h1 className="title">Fundraise by helping your supporters find brands they'll love.</h1>
+            <h1 className="title">Fundraise by helping your supporters find brands they&apos;ll love.</h1>
             <h4 className="subtitle font-light">
               Partner with socially conscious brands and earn up to 30% of purchases.
             </h4>

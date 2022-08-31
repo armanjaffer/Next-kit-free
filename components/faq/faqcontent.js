@@ -23,7 +23,7 @@ const FaqContent = () => {
                         <div className="faq-content">
                             <h3>What does Kindred provide?</h3>
                             <li>
-                                A rigorously optimized component that shows up in partner brand’s stores that communicate the dollar value in the customer’s cart that will be donated to the select nonprofit. Affiliate marketing programs do not provide this tool because traditional affiliate marketing hides the commission; with Kindred donations, the customer wants to know how much will go back to their nonprofit!
+                                A rigorously optimized component that shows up in partner brand&apos;s stores that communicate the dollar value in the customer&apos;s cart that will be donated to the select nonprofit. Affiliate marketing programs do not provide this tool because traditional affiliate marketing hides the commission; with Kindred donations, the customer wants to know how much will go back to their nonprofit!
                             </li>
                             <li>
                                 Kindred provides embeddable “shop with us” widgets (pre-populated with affiliate link) that nonprofits can embed within their websites, email outreach and social media.
@@ -34,7 +34,7 @@ const FaqContent = () => {
                         </div>
                         <div className="faq-content">
                             <h3>How long do fundraisers run?</h3>
-                            It depends on our partners’ constraints and interest. We recommend that our affiliate partners use an evergreen affiliate link, but think strategically about how and when to highlight partner brands (e.g. during the
+                            It depends on our partners&apos; constraints and interest. We recommend that our affiliate partners use an evergreen affiliate link, but think strategically about how and when to highlight partner brands (e.g. during the
                              holiday shopping season). We work with nonprofits to figure out the best engagement strategy and work with brands to ensure unprofitable partnerships are terminated.
                         </div>
                         <div className="faq-content">
@@ -46,11 +46,11 @@ const FaqContent = () => {
                         </div>
                         <div className="faq-content">
                             <h3>What brands are available to partner with?</h3>
-                            For partner privacy, we do not reveal partner brands on our website, however, we will be happy to share more details over a phone call. Feel free to use the 'Contact Us' button above to do so!
+                            For partner privacy, we do not reveal partner brands on our website, however, we will be happy to share more details over a phone call. Feel free to use the &apos;Contact Us&apos; button above to do so!
                         </div>
                         <div className="faq-content">
                             <h3>How can I trust that brands will share their proceeds?</h3>
-                            Payment fulfillment is covered by affiliate marketing programs that codify the legal and financial agreement between affiliate and brand. We’ll review the credibility and contract of partner brand’s affiliate marketing programs to ensure that you are protected.
+                            Payment fulfillment is covered by affiliate marketing programs that codify the legal and financial agreement between affiliate and brand. We&apos;ll review the credibility and contract of partner brand’s affiliate marketing programs to ensure that you are protected.
                         </div>
                         <div className="faq-content">
                             <h3>How do I know that the brand that my organization partners with shares its values?</h3>
@@ -63,10 +63,10 @@ const FaqContent = () => {
                         </div>
                         <div className="faq-content">
                             <h3>Ok, I’d like my org to join the beta! What next?</h3>
-                            <li>After you join the waitlist, we’ll reach out when we have found potential brand partners that have ‘kindred’ spirit.</li>
+                            <li>After you join the waitlist, we&apos;ll reach out when we have found potential brand partners that have &apos;kindred&apos; spirit.</li>
                             <li>Kindred will have select brands generate referral links for your nonprofit and set up affiliate commission payments. Kindred will also incorporate the partnership into the newest version of the Kindred app, which means that your supporters will see a customized Kindred experience when they visit participating brands.</li>
                             <li>Your team will reach out to your community to share news about the partnership(s) through email, social media, and through your website (we can with design and content!)</li>
-                            <li>Tada! Wait until donations from partner brands hit your organization’s bank account.</li>
+                            <li>Tada! Wait until donations from partner brands hit your organization&apos;s bank account.</li>
 
                         </div>
                         <div className="faq-content">
@@ -74,7 +74,7 @@ const FaqContent = () => {
                         </div>
                         <div className="faq-content">
                             <h3>What nonprofits are available to partner with?</h3>
-                            For partner privacy, we do not reveal partner brands on our website, however, we will be happy to share more details over a phone call. Feel free to use the 'Contact Us' button above to do so!
+                            For partner privacy, we do not reveal partner brands on our website, however, we will be happy to share more details over a phone call. Feel free to use the &apos;Contact Us&apos; button above to do so!
                         </div>
                         <div className="faq-content">
                             <h3> How do I know that the nonprofit that my company partners with shares its values?</h3>
@@ -82,13 +82,13 @@ const FaqContent = () => {
                         </div>
                         <div className="faq-content">
                             <h3>What nonprofits are available to partner with?</h3>
-                            For partner privacy, we do not reveal partner brands on our website, however, we will be happy to share more details over a phone call. Feel free to use the 'Contact Us' button above to do so!
+                            For partner privacy, we do not reveal partner brands on our website, however, we will be happy to share more details over a phone call. Feel free to use the &apos;Contact Us&apos; button above to do so!
                         </div>
                         <div className="faq-content">
-                            <h3>I’d like to join the beta! What next?</h3>
-                            <li>After your business joins our waitlist, we’ll reach out when we have found potential brand partners that have ‘kindred’ spirit.</li>
+                            <h3>I&apos;d like to join the beta! What next?</h3>
+                            <li>After your business joins our waitlist, we&apos;ll reach out when we have found potential brand partners that have &apos;kindred&apos; spirit.</li>
                             <li>Your business will create new affiliate accounts using your existing affiliate marketing program for each of your nonprofit partners.</li>
-                            <li>You’ll install the private Kindred app from the Shopify App store. </li>
+                            <li>You&apos;ll install the private Kindred app from the Shopify App store. </li>
                             <li>Tada! Nonprofits will start to send you new customers that are super-intent on purchasing. Your existing affiliate marketing program will take care of payments.</li>
                         </div>
                     </Col>
