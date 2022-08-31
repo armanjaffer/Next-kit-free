@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Components from "../components/nonprofits/AllComponents";
+import Components from "../components/faq/FaqComponents";
+
 
 export default function Faq() {
   return (

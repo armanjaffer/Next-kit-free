@@ -10,17 +10,16 @@ const CallToAction = () => {
             <div className="d-flex align-items-center">
               <div>
                 <h2 className="title text-white font-weight-bold">
-                  Pro Version coming soon
+                  You've got questions and we've got answers.
                 </h2>
                 <h6 className="subtitle font-light text-white">
-                  We will add Pro Version with tons of great features and
-                  multiple category demos which is ready to use...
+                  Reach out if you have a question that is not answered below!
                 </h6>
                 <Button
-                  href="/#coming"
                   className="btn btn-dark m-r-20 btn-md m-t-30"
+                  onClick={() => window.location = 'mailto:armanjaffer@gmail.com'}
                 >
-                  Comming Soon
+                  Contact Us
                 </Button>
               </div>
             </div>

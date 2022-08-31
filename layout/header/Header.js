@@ -63,7 +63,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="/nonprofits">
+                  <Link href="/faq">
                     <a
                       className={
                         router.pathname == "/faq"
