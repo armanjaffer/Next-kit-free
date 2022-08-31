@@ -21,7 +21,7 @@ const FormBannerComponent = () => {
                     Join the Kindred waitlist! 
                   </h2>
                   <p className="m-t-40 m-b-30">
-                    Expand your customer base with nonprofit supporters! Join the waistlist and we'll let you know as soon as we've matched you with values-aligned nonprofits.
+                    Expand your customer base with nonprofit supporters! Join the waistlist and we&apos;ll let you know as soon as we&apos;ve matched you with values-aligned nonprofits.
                   </p>
                   <Form className="m-t-40">
                     <input
