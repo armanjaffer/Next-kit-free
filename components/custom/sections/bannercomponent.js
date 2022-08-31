@@ -18,7 +18,7 @@ const BannerComponent = (props) => {
                   </li>
                   <br/>
                   <li>
-                    <b>Embeddable Widget. </b>The Kindred plugin supplements by visualizing the amount that will be donated to a nonprofit, which doubles AOV!
+                    <b>Embeddable Widget. </b>The Kindred plugin supplements your existing affiliate marketing program by visualizing the amount that will be donated to a nonprofit, which doubles AOV!
                   </li>
                   <br/>
                   <li>
