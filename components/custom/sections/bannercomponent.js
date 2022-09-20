@@ -31,7 +31,7 @@ const BannerComponent = (props) => {
             </Col>
             <Col md="6">
               <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0}}
-                src="https://youtu.be/WNTKyK4IcaQ">
+                src="https://www.youtube.com/embed/WNTKyK4IcaQ">
               </iframe>
             </Col>
           </Row>
@@ -79,7 +79,7 @@ const BannerComponent = (props) => {
             </Col>
             <Col lg="6">
               <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0}}
-                src="https://youtu.be/WNTKyK4IcaQ">
+                src="https://www.youtube.com/embed/WNTKyK4IcaQ">
               </iframe>
             </Col>
           </Row>
