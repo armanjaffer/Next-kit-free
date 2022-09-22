@@ -13,7 +13,7 @@ const FaqContent = () => {
                         <div className="faq-content">
                             <h3 >Who is behind Kindred?</h3>
                             Kindred is a bootstrapped project built by Arman Jaffer with support from South Park Commons.
-                             Arman has previously worked at the Chan Zuckerberg Initiative, the Aspen Institute, the White House, and Google. He additional experience partnering with nonprofits such as Gradient Learning and Amnesty International.
+                             Arman previously worked at the Chan Zuckerberg Initiative, the Aspen Institute, the White House, and Google. He's worked closely with nonprofits such as Gradient Learning and Amnesty International.
                         </div>
                         <div className="faq-content">
                             <h3>How does Kindred make money?</h3>
